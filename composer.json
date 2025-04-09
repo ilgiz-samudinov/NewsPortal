@@ -1,0 +1,14 @@
+{
+    "name": "ilgiz/news-portal",
+    "description": "Новостной портал на PHP и PostgreSQL",
+    "type": "project",
+    "require": {
+        "php": "^8.4",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
